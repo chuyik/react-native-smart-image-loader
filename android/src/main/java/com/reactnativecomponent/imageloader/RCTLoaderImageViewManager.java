@@ -178,7 +178,7 @@ public class RCTLoaderImageViewManager extends SimpleViewManager<RCTLoaderImageV
                 .cacheInMemory(cacheInMemory)//设置下载的图片是否缓存在内存中
                 .cacheOnDisc(cacheOnDisc)//设置下载的图片是否缓存在SD卡中
 //                    .considerExifParams(false)  //是否考虑JPEG图像EXIF参数（旋转，翻转）
-                .imageScaleType(ImageScaleType.EXACTLY)//设置图片以如何的编码方式显示
+                .imageScaleType(ImageScaleType.EXACTLY_STRETCHED)//设置图片以如何的编码方式显示
                 .bitmapConfig(Bitmap.Config.RGB_565)//设置图片的解码类型//
 //.delayBeforeLoading(int delayInMillis)//int delayInMillis为你设置的下载前的延迟时间
 //设置图片加入缓存前，对bitmap进行设置
